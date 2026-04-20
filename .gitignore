@@ -22,3 +22,19 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# The Maven build directory
+target/
+
+# The runtime directory for package assembly
+runtime/
+
+# The Maven metadata directory
+.mvn/
+
+# The IntelliJ idea project preferences directory (this is developer-
+# specific) and should not be committed
+.idea/
+
+# macOS Finder detritus
+.DS_Store
